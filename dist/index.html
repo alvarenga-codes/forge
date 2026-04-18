@@ -1,0 +1,817 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Landing Page criada para aumentar o número de clientes que buscam os serviços de um personal trainer"
+    />
+    <title>FORGE — Personal Trainer Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400&family=Barlow:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --acid: #c8ff00;
+        --fire: #ff4500;
+        --dark: #080808;
+        --mid: #111111;
+        --panel: #161616;
+        --border: #222222;
+        --light: #f2f2f2;
+        --muted: #555555;
+        --white: #ffffff;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-Co9wWeWa.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BX9m0yfK.css">
+  </head>
+  <body>
+    <!-- Custom Cursor -->
+    <div id="cursor"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- NAV -->
+    <nav id="nav">
+      <div class="nav-logo">FORGE<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#method">Método</a></li>
+        <li><a href="#results">Resultados</a></li>
+        <li><a href="#pricing">Planos</a></li>
+        <li><a href="#cta">Contato</a></li>
+      </ul>
+      <a href="#cta" class="nav-cta">Começar Agora</a>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-left">
+        <div class="hero-overline">Personal Trainer Premium · Brasília</div>
+        <h1 class="hero-title">
+          <span>SEU</span>
+          <span class="accent">CORPO</span>
+          <span class="stroke">FORJADO</span>
+        </h1>
+        <p class="hero-subtitle">
+          Treinos personalizados com ciência e disciplina militar. Não é academia comum — é
+          <strong style="color: var(--white)">transformação real</strong>
+          com quem sabe o que faz.
+        </p>
+        <div class="hero-actions">
+          <a href="#cta" class="btn-primary">Quero Mudar Agora</a>
+          <a href="#results" class="btn-ghost">Ver Resultados</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-number">
+              <span class="count" data-target="340">0</span><span>+</span>
+            </div>
+            <div class="stat-label">Alunos Transformados</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">
+              <span class="count" data-target="8">0</span><span> anos</span>
+            </div>
+            <div class="stat-label">De Experiência</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">
+              <span class="count" data-target="97">0</span><span>%</span>
+            </div>
+            <div class="stat-label">Taxa de Sucesso</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-line"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-img-wrap">
+          <!-- Athletic SVG figure -->
+          <svg
+            class="athlete-figure"
+            viewBox="0 0 420 700"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="width: 80%; max-width: 380px; opacity: 0.9"
+          >
+            <!-- Glow effect -->
+            <defs>
+              <radialGradient id="glowGrad" cx="50%" cy="60%" r="50%">
+                <stop offset="0%" stop-color="#C8FF00" stop-opacity="0.25" />
+                <stop offset="100%" stop-color="#C8FF00" stop-opacity="0" />
+              </radialGradient>
+              <filter id="softGlow">
+                <feGaussianBlur stdDeviation="8" result="blur" />
+                <feComposite in="SourceGraphic" in2="blur" operator="over" />
+              </filter>
+              <filter id="strongGlow">
+                <feGaussianBlur stdDeviation="4" result="blur" />
+                <feComposite in="SourceGraphic" in2="blur" operator="over" />
+              </filter>
+            </defs>
+            <!-- Background glow -->
+            <ellipse cx="210" cy="450" rx="180" ry="260" fill="url(#glowGrad)" />
+            <!-- Shadow/ground -->
+            <ellipse cx="210" cy="685" rx="130" ry="14" fill="#C8FF00" opacity="0.08" />
+
+            <!-- LEGS -->
+            <!-- Left leg -->
+            <path
+              d="M185 480 L165 580 L155 680"
+              stroke="#C8FF00"
+              stroke-width="22"
+              stroke-linecap="round"
+              opacity="0.15"
+              filter="url(#softGlow)"
+            />
+            <path
+              d="M185 480 L165 580 L155 680"
+              stroke="#C8FF00"
+              stroke-width="8"
+              stroke-linecap="round"
+              opacity="0.6"
+            />
+            <path
+              d="M185 480 L165 580 L155 680"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              opacity="0.4"
+            />
+            <!-- Right leg -->
+            <path
+              d="M235 480 L258 580 L268 680"
+              stroke="#C8FF00"
+              stroke-width="22"
+              stroke-linecap="round"
+              opacity="0.15"
+              filter="url(#softGlow)"
+            />
+            <path
+              d="M235 480 L258 580 L268 680"
+              stroke="#C8FF00"
+              stroke-width="8"
+              stroke-linecap="round"
+              opacity="0.6"
+            />
+            <path
+              d="M235 480 L258 580 L268 680"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              opacity="0.4"
+            />
+
+            <!-- Feet -->
+            <path
+              d="M145 678 L165 676 L172 682"
+              stroke="#C8FF00"
+              stroke-width="8"
+              stroke-linecap="round"
+              opacity="0.6"
+            />
+            <path
+              d="M258 678 L278 676 L285 682"
+              stroke="#C8FF00"
+              stroke-width="8"
+              stroke-linecap="round"
+              opacity="0.6"
+            />
+
+            <!-- TORSO -->
+            <path
+              d="M160 310 L155 480 L265 480 L260 310 Z"
+              fill="#111"
+              stroke="#333"
+              stroke-width="1"
+            />
+            <!-- Chest highlight -->
+            <path d="M180 330 L210 360 L240 330" stroke="#C8FF00" stroke-width="2" opacity="0.4" />
+            <line
+              x1="210"
+              y1="330"
+              x2="210"
+              y2="450"
+              stroke="#C8FF00"
+              stroke-width="1.5"
+              opacity="0.25"
+            />
+            <!-- Abs lines -->
+            <line x1="192" y1="380" x2="228" y2="380" stroke="#333" stroke-width="1.5" />
+            <line x1="188" y1="410" x2="232" y2="410" stroke="#333" stroke-width="1.5" />
+            <line x1="186" y1="440" x2="234" y2="440" stroke="#333" stroke-width="1.5" />
+
+            <!-- SHOULDERS -->
+            <ellipse
+              cx="148"
+              cy="318"
+              rx="26"
+              ry="22"
+              fill="#1a1a1a"
+              stroke="#2a2a2a"
+              stroke-width="1"
+            />
+            <ellipse
+              cx="272"
+              cy="318"
+              rx="26"
+              ry="22"
+              fill="#1a1a1a"
+              stroke="#2a2a2a"
+              stroke-width="1"
+            />
+            <!-- Shoulder highlight -->
+            <path
+              d="M132 308 Q148 296 164 308"
+              stroke="#C8FF00"
+              stroke-width="2"
+              opacity="0.5"
+              fill="none"
+            />
+            <path
+              d="M256 308 Q272 296 288 308"
+              stroke="#C8FF00"
+              stroke-width="2"
+              opacity="0.5"
+              fill="none"
+            />
+
+            <!-- ARMS -->
+            <!-- Left arm -->
+            <path
+              d="M148 338 L118 430 L108 500"
+              stroke="#C8FF00"
+              stroke-width="22"
+              stroke-linecap="round"
+              opacity="0.1"
+              filter="url(#softGlow)"
+            />
+            <path
+              d="M148 338 L118 430 L108 500"
+              stroke="#1e1e1e"
+              stroke-width="20"
+              stroke-linecap="round"
+            />
+            <path
+              d="M148 338 L118 430 L108 500"
+              stroke="#C8FF00"
+              stroke-width="6"
+              stroke-linecap="round"
+              opacity="0.5"
+            />
+            <path
+              d="M148 338 L118 430 L108 500"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              opacity="0.2"
+            />
+            <!-- Bicep definition -->
+            <path
+              d="M135 370 Q122 390 125 410"
+              stroke="#C8FF00"
+              stroke-width="1.5"
+              opacity="0.3"
+              fill="none"
+            />
+
+            <!-- Right arm -->
+            <path
+              d="M272 338 L302 430 L312 500"
+              stroke="#C8FF00"
+              stroke-width="22"
+              stroke-linecap="round"
+              opacity="0.1"
+              filter="url(#softGlow)"
+            />
+            <path
+              d="M272 338 L302 430 L312 500"
+              stroke="#1e1e1e"
+              stroke-width="20"
+              stroke-linecap="round"
+            />
+            <path
+              d="M272 338 L302 430 L312 500"
+              stroke="#C8FF00"
+              stroke-width="6"
+              stroke-linecap="round"
+              opacity="0.5"
+            />
+            <path
+              d="M272 338 L302 430 L312 500"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              opacity="0.2"
+            />
+            <!-- Bicep definition -->
+            <path
+              d="M285 370 Q298 390 295 410"
+              stroke="#C8FF00"
+              stroke-width="1.5"
+              opacity="0.3"
+              fill="none"
+            />
+
+            <!-- Hands/Fists -->
+            <circle
+              cx="107"
+              cy="505"
+              r="12"
+              fill="#1a1a1a"
+              stroke="#C8FF00"
+              stroke-width="2"
+              opacity="0.7"
+            />
+            <circle
+              cx="313"
+              cy="505"
+              r="12"
+              fill="#1a1a1a"
+              stroke="#C8FF00"
+              stroke-width="2"
+              opacity="0.7"
+            />
+
+            <!-- NECK -->
+            <rect
+              x="197"
+              y="250"
+              width="26"
+              height="60"
+              rx="6"
+              fill="#1a1a1a"
+              stroke="#222"
+              stroke-width="1"
+            />
+
+            <!-- HEAD -->
+            <ellipse
+              cx="210"
+              cy="210"
+              rx="60"
+              ry="70"
+              fill="#1a1a1a"
+              stroke="#2a2a2a"
+              stroke-width="1.5"
+            />
+            <!-- Face subtle features -->
+            <path
+              d="M188 205 Q194 200 200 205"
+              stroke="#C8FF00"
+              stroke-width="1.5"
+              opacity="0.3"
+              fill="none"
+            />
+            <path
+              d="M220 205 Q226 200 232 205"
+              stroke="#C8FF00"
+              stroke-width="1.5"
+              opacity="0.3"
+              fill="none"
+            />
+            <path
+              d="M200 230 Q210 238 220 230"
+              stroke="#C8FF00"
+              stroke-width="1.5"
+              opacity="0.25"
+              fill="none"
+            />
+            <!-- Jawline -->
+            <path
+              d="M165 230 Q180 258 210 264 Q240 258 255 230"
+              stroke="#333"
+              stroke-width="2"
+              fill="none"
+            />
+            <!-- Hair top highlight -->
+            <path
+              d="M158 168 Q210 148 262 168"
+              stroke="#C8FF00"
+              stroke-width="3"
+              opacity="0.2"
+              fill="none"
+            />
+
+            <!-- NEON ACCENT LINES -->
+            <line
+              x1="210"
+              y1="100"
+              x2="210"
+              y2="140"
+              stroke="#C8FF00"
+              stroke-width="1"
+              opacity="0.4"
+              stroke-dasharray="4,6"
+            />
+            <!-- Energy particles -->
+            <circle cx="100" cy="300" r="3" fill="#C8FF00" opacity="0.5">
+              <animate
+                attributeName="opacity"
+                values="0.5;0;0.5"
+                dur="2.4s"
+                repeatCount="indefinite"
+              />
+              <animate
+                attributeName="cy"
+                values="300;280;300"
+                dur="2.4s"
+                repeatCount="indefinite"
+              />
+            </circle>
+            <circle cx="330" cy="260" r="2" fill="#C8FF00" opacity="0.4">
+              <animate
+                attributeName="opacity"
+                values="0.4;0;0.4"
+                dur="1.8s"
+                repeatCount="indefinite"
+              />
+              <animate
+                attributeName="cy"
+                values="260;240;260"
+                dur="1.8s"
+                repeatCount="indefinite"
+              />
+            </circle>
+            <circle cx="80" cy="450" r="2.5" fill="#C8FF00" opacity="0.35">
+              <animate
+                attributeName="opacity"
+                values="0.35;0;0.35"
+                dur="3.2s"
+                repeatCount="indefinite"
+              />
+            </circle>
+            <circle cx="340" cy="420" r="2" fill="#FF4500" opacity="0.5">
+              <animate
+                attributeName="opacity"
+                values="0.5;0;0.5"
+                dur="2s"
+                repeatCount="indefinite"
+              />
+            </circle>
+            <!-- Circuit-like decoration lines -->
+            <path
+              d="M60 350 L90 350 L90 380 L120 380"
+              stroke="#C8FF00"
+              stroke-width="1"
+              opacity="0.2"
+              fill="none"
+            />
+            <path
+              d="M360 350 L330 350 L330 380 L300 380"
+              stroke="#C8FF00"
+              stroke-width="1"
+              opacity="0.2"
+              fill="none"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker-wrap">
+      <div class="ticker-track" id="ticker">
+        <span class="ticker-item hi">+ 340 Vidas Transformadas</span>
+        <span class="ticker-item">⬥</span>
+        <span class="ticker-item">Treino Personalizado</span>
+        <span class="ticker-item">⬥</span>
+        <span class="ticker-item hi">Acompanhamento Nutricional</span>
+        <span class="ticker-item">⬥</span>
+        <span class="ticker-item">Sem Desculpas. Sem Moleza.</span>
+        <span class="ticker-item">⬥</span>
+        <span class="ticker-item hi">Resultados em 90 dias</span>
+        <span class="ticker-item">⬥</span>
+        <span class="ticker-item">Método Exclusivo FORGE</span>
+        <span class="ticker-item">⬥</span>
+        <span class="ticker-item hi">Online & Presencial</span>
+        <span class="ticker-item">⬥</span>
+        <span class="ticker-item">+ 340 Vidas Transformadas</span>
+        <span class="ticker-item">⬥</span>
+        <span class="ticker-item">Treino Personalizado</span>
+        <span class="ticker-item">⬥</span>
+        <span class="ticker-item hi">Acompanhamento Nutricional</span>
+        <span class="ticker-item">⬥</span>
+        <span class="ticker-item">Sem Desculpas. Sem Moleza.</span>
+        <span class="ticker-item">⬥</span>
+        <span class="ticker-item hi">Resultados em 90 dias</span>
+        <span class="ticker-item">⬥</span>
+        <span class="ticker-item">Método Exclusivo FORGE</span>
+        <span class="ticker-item">⬥</span>
+        <span class="ticker-item hi">Online & Presencial</span>
+        <span class="ticker-item">⬥</span>
+      </div>
+    </div>
+
+    <!-- METHOD -->
+    <section id="method">
+      <div class="method-text reveal">
+        <div class="section-label">O Método</div>
+        <h2 class="section-title">
+          CIÊNCIA<br />
+          <span class="muted">+</span> DISCIPLINA<br />
+          = RESULTADO
+        </h2>
+        <p>
+          Nada de treinos genéricos copiados da internet. Cada protocolo é construído a partir da
+          sua
+          <span class="highlight">biometria, rotina e objetivo específico.</span>
+          Periodização científica com progressão real semana a semana.
+        </p>
+        <ul class="method-list">
+          <li>Avaliação física e funcional completa</li>
+          <li>Treinos periodizados com ciência do esporte</li>
+          <li>Plano alimentar integrado ao treino</li>
+          <li>Ajustes semanais baseados em dados reais</li>
+          <li>Suporte via app 7 dias por semana</li>
+        </ul>
+      </div>
+      <div class="method-image reveal reveal-delay-2">
+        <div class="method-card-grid">
+          <div class="method-card">
+            <span class="method-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none">
+                <g clip-path="url(#a)">
+                  <path
+                    fill="currentColor"
+                    d="M39.983 17.872c-.075-.04-2.318-1.205-5.833-1.205-5.052 0-8.845 3.97-10.172 5.571a9 9 0 0 0-3.161-.571c-3.115 0-6.07 1.67-8.097 3.171.347-1.391.563-2.99.657-4.84 5.493-.025 9.955-4.498 9.955-9.998S18.848 0 13.333 0s-10 4.485-10 10c0 1.07.174 2.098.485 3.065C.502 19.978 0 27.173 0 30.698.26 31.07 6.655 40 19.167 40c12.331 0 20.493-5.368 20.818-5.587zM13.333 1.667c4.595 0 8.334 3.738 8.334 8.333s-3.739 8.333-8.334 8.333S5 14.595 5 10s3.738-8.333 8.333-8.333m5.834 36.666c-10.597 0-16.499-6.898-17.5-8.175.025-3.226.516-9.066 3.08-15.058a10 10 0 0 0 6.971 4.757c-.148 3.065-.791 5.54-1.678 7.31l1.215 1.143c.047-.05 4.742-4.977 9.563-4.977 3.877 0 6.294 3.129 6.319 3.16l1.333-1.001c-.07-.094-1.115-1.432-2.935-2.5 1.367-1.554 4.602-4.66 8.617-4.66 2.118 0 3.506.37 4.166.598v14.572c-1.663.986-8.813 4.83-19.15 4.83zm-5.834-25A3.337 3.337 0 0 0 16.667 10a3.337 3.337 0 0 0-3.334-3.333A3.337 3.337 0 0 0 10 10a3.337 3.337 0 0 0 3.333 3.333m0-5A1.67 1.67 0 0 1 15 10a1.67 1.67 0 0 1-1.667 1.667A1.67 1.67 0 0 1 11.667 10a1.67 1.67 0 0 1 1.666-1.667"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="a"><path fill="#fff" d="M0 0h40v40H0z" /></clipPath>
+                </defs>
+              </svg>
+            </span>
+            <div class="method-card-title">Força & Hipertrofia</div>
+            <p>Protocolos de periodização ondulada para ganho muscular contínuo sem platô.</p>
+          </div>
+          <div class="method-card">
+            <span class="method-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none">
+                <g clip-path="url(#a)">
+                  <path
+                    fill="currentColor"
+                    d="M26.79 6.302c-2.317-1.844-4.505-3.587-6.152-5.555l-.628-.75-.64.74c-2.485 2.87-3.175 6.368-3.73 9.18-.675 3.418-1.09 5.061-3.14 5.061-.33 0-.583-.115-.82-.373-1.012-1.105-1.145-4.31-.99-6.072l.205-2.338L9.262 7.88C6.898 10.318 2.5 14.857 2.5 22.498c0 9.65 7.85 17.5 17.5 17.5s17.5-7.85 17.5-17.5c0-7.671-5.445-12.005-10.71-16.196m-11.503 30.08c-2.6-2.604-2.6-6.835-.037-9.399l4.752-4.203 4.713 4.17c2.598 2.602 2.598 6.833 0 9.432-2.598 2.598-6.828 2.601-9.428 0m11.071.608a8.33 8.33 0 0 0-.501-11.253l-5.855-5.184-5.894 5.217c-3.071 3.07-3.201 7.943-.465 11.218-5.571-2.455-9.475-8.021-9.475-14.49 0-5.388 2.284-8.993 4.814-11.87.06 1.692.368 3.897 1.47 5.1.548.599 1.255.915 2.048.915 3.512 0 4.127-3.111 4.775-6.406.49-2.487 1.04-5.274 2.758-7.659 1.64 1.777 3.629 3.36 5.719 5.024 4.956 3.946 10.081 8.026 10.081 14.895 0 6.47-3.905 12.036-9.476 14.491z"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="a"><path fill="#fff" d="M0 0h40v40H0z" /></clipPath>
+                </defs>
+              </svg>
+            </span>
+            <div class="method-card-title">Perda de Gordura</div>
+            <p>Déficit calórico inteligente com preservação máxima de massa magra.</p>
+          </div>
+          <div class="method-card">
+            <span class="method-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none">
+                <g clip-path="url(#a)">
+                  <path
+                    fill="currentColor"
+                    d="M15.707 13.333h3.091L16.298 20h2.5l9.144-9.697a2.34 2.34 0 0 0-1.952-3.635h-3.08L25.645 0h-8.18l-4.028 10.277c-.22.725-.087 1.49.365 2.098a2.35 2.35 0 0 0 1.905.958m-.697-2.511 3.592-9.155h4.558l-2.735 6.666h5.565c.365 0 .538.249.595.357.058.105.17.387.057.58l-7.529 7.97 2.09-5.573h-5.496a.7.7 0 0 1-.567-.285c-.133-.18-.173-.409-.13-.56M40 28.333h-1.667v-6.666h-5v-3.334h-6.666v10H13.333v-10H6.667v3.334h-5v6.666H0V30h1.667v6.667h5V40h6.666V30h13.334v10h6.666v-3.333h5V30H40zM3.333 35V23.333h3.334V35zm8.334 3.333H8.333V20h3.334zm20 0h-3.334V20h3.334zm5-3.333h-3.334V23.333h3.334z"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="a"><path fill="#fff" d="M0 0h40v40H0z" /></clipPath>
+                </defs>
+              </svg>
+            </span>
+            <div class="method-card-title">Performance</div>
+            <p>Treinamento funcional e resistência para quem quer desempenho real na vida.</p>
+          </div>
+          <div class="method-card">
+            <span class="method-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none">
+                <g clip-path="url(#a)">
+                  <path
+                    fill="currentColor"
+                    d="M39.942 23.202c-1.238 7.285-6.007 13.376-13.083 16.718l-.17.08-13.549-.08C6.067 36.58 1.297 30.487.06 23.203a4.16 4.16 0 0 1 .928-3.385 4.17 4.17 0 0 1 2.525-1.431 8.4 8.4 0 0 1-.178-1.72c0-2.759 1.291-5.26 3.363-6.779.008.009.005.005 0 0a5.8 5.8 0 0 1 0-8.191A5.76 5.76 0 0 1 10.785.002c2.74 0 4.179 1.771 4.215 1.81.037-.039 1.442-1.81 4.199-1.81a5.8 5.8 0 0 1 4.105 1.695c1.308 1.308 1.901 3.115 1.661 4.856 1.477-.943 3.369-2.87 3.369-6.553H30c0 2.737-.898 4.685-2.018 6.05 3.817-.853 7.548-1.037 7.815-1.048l.915-.042-.045.913c-.013.309-.367 7.057-2.795 12.46h1.948c1.234 0 2.397.542 3.195 1.485a4.15 4.15 0 0 1 .927 3.384M23.079 9.533a23 23 0 0 1-1.187.914 6.56 6.56 0 0 0-1.53 6.781c.13.28.428.807.688 1.105h1.107l5.59-5.59 1.178 1.179-4.41 4.41h7.515c2.037-4.09 2.707-9.465 2.904-11.605-2.367.185-8.594.845-11.852 2.805zM7.875 8.71q.18.177.404.345a8.3 8.3 0 0 1 3.388-.722 8.34 8.34 0 0 1 7.123 4.012 8.2 8.2 0 0 1 1.964-3.118 7.2 7.2 0 0 1 1.268-.99c.555-.464.98-.874 1.07-1.052.568-1.457.19-3.153-.967-4.31a4.13 4.13 0 0 0-5.835 0c-.561.562-1.29 1.89-1.29 1.89s-.775-1.375-1.29-1.89a4.13 4.13 0 0 0-5.835 0 4.13 4.13 0 0 0 0 5.835M5 16.667c0 .566.07 1.128.21 1.666h12.914A6.673 6.673 0 0 0 11.667 10 6.673 6.673 0 0 0 5 16.667m32.742 4.228A2.51 2.51 0 0 0 35.82 20H4.182c-.74 0-1.442.325-1.922.895a2.5 2.5 0 0 0-.556 2.03c1.136 6.682 5.5 12.288 11.983 15.41h12.627c6.485-3.122 10.848-8.728 11.983-15.41a2.5 2.5 0 0 0-.557-2.028z"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="a"><path fill="#fff" d="M0 0h40v40H0z" /></clipPath>
+                </defs>
+              </svg>
+            </span>
+            <div class="method-card-title">Nutrição Integrada</div>
+            <p>Plano alimentar prático feito em parceria com sua rotina real, não ideal.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="results">
+      <div class="results-intro reveal">
+        <div class="section-label">Resultados</div>
+        <h2 class="section-title">OS NÚMEROS<br /><span class="muted">NÃO MENTEM</span></h2>
+        <p>Cada número representa uma pessoa real que decidiu parar de adiar e agir.</p>
+      </div>
+
+      <div class="counters-grid">
+        <div class="counter-cell reveal">
+          <span class="counter-num"
+            ><span class="count" data-target="340">0</span><span class="unit">+</span></span
+          >
+          <span class="counter-desc">Alunos Transformados</span>
+        </div>
+        <div class="counter-cell reveal reveal-delay-1">
+          <span class="counter-num"
+            ><span class="count" data-target="4">0</span><span class="unit">kg</span></span
+          >
+          <span class="counter-desc">Média de Perda p/ Mês</span>
+        </div>
+        <div class="counter-cell reveal reveal-delay-2">
+          <span class="counter-num"
+            ><span class="count" data-target="90">0</span><span class="unit">d</span></span
+          >
+          <span class="counter-desc">Para 1ª Transformação</span>
+        </div>
+        <div class="counter-cell reveal reveal-delay-3">
+          <span class="counter-num"
+            ><span class="count" data-target="97">0</span><span class="unit">%</span></span
+          >
+          <span class="counter-desc">Taxa de Satisfação</span>
+        </div>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testi-card reveal">
+          <div class="testi-stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span
+            ><span class="star">★</span><span class="star">★</span>
+          </div>
+          <p class="testi-quote">
+            "Em 3 meses perdi 14kg e ganhei músculo que nunca tinha tido. O método é diferente de
+            tudo que já tentei antes. Finalmente resultado de verdade."
+          </p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: #c8ff00">R</div>
+            <div>
+              <div class="testi-name">Rafael Souza</div>
+              <div class="testi-result">− 14kg em 90 dias</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card featured reveal reveal-delay-1">
+          <div class="testi-badge">Destaque</div>
+          <div class="testi-stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span
+            ><span class="star">★</span><span class="star">★</span>
+          </div>
+          <p class="testi-quote">
+            "Tentei academia por anos sem resultado. Com o Forge finalmente entendi que o problema
+            era falta de método, não de esforço. Mudança total de vida."
+          </p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: #ff4500">J</div>
+            <div>
+              <div class="testi-name">Juliana Mendes</div>
+              <div class="testi-result">+ 8kg de massa muscular</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal reveal-delay-2">
+          <div class="testi-stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span
+            ><span class="star">★</span><span class="star">★</span>
+          </div>
+          <p class="testi-quote">
+            "Treino online parecia piada para mim. Mas o acompanhamento é tão próximo quanto
+            presencial. Perdi 18kg em 4 meses trabalhando de casa."
+          </p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: #c8ff00">M</div>
+            <div>
+              <div class="testi-name">Marcos Lima</div>
+              <div class="testi-result">− 18kg em 4 meses</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing">
+      <div class="section-wrap">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-label">Planos</div>
+            <h2 class="section-title">ESCOLHA<br /><span class="muted">SEU NÍVEL</span></h2>
+          </div>
+          <p>
+            Sem contratos longos. Sem taxas escondidas. Cancele quando quiser — mas você não vai
+            querer.
+          </p>
+        </div>
+
+        <div class="pricing-grid reveal">
+          <div class="pricing-card">
+            <div class="plan-name">Starter</div>
+            <div class="plan-price"><small>R$</small> 290</div>
+            <div class="plan-period">por mês · pagamento mensal</div>
+            <div class="plan-divider"></div>
+            <ul class="plan-features">
+              <li class="active">Treino personalizado mensal</li>
+              <li class="active">Planilha de exercícios no app</li>
+              <li class="active">Orientação nutricional básica</li>
+              <li class="active">Suporte via chat</li>
+              <li>Avaliação semanal de progresso</li>
+              <li>Videochamada mensal</li>
+              <li>Acesso à comunidade VIP</li>
+            </ul>
+            <a href="#cta" class="plan-btn">Começar Agora</a>
+          </div>
+
+          <div class="pricing-card popular">
+            <div class="popular-badge">Mais Popular</div>
+            <div class="plan-name">Pro</div>
+            <div class="plan-price"><small>R$</small> 490</div>
+            <div class="plan-period">por mês · pagamento mensal</div>
+            <div class="plan-divider"></div>
+            <ul class="plan-features">
+              <li class="active">Treino personalizado semanal</li>
+              <li class="active">Planilha com vídeos explicativos</li>
+              <li class="active">Plano alimentar completo</li>
+              <li class="active">Suporte via chat (resposta em 4h)</li>
+              <li class="active">Avaliação semanal de progresso</li>
+              <li class="active">2 videochamadas por mês</li>
+              <li>Acesso à comunidade VIP</li>
+            </ul>
+            <a href="#cta" class="plan-btn primary">Quero Este Plano</a>
+          </div>
+
+          <div class="pricing-card">
+            <div class="plan-name">Elite</div>
+            <div class="plan-price"><small>R$</small> 890</div>
+            <div class="plan-period">por mês · pagamento mensal</div>
+            <div class="plan-divider"></div>
+            <ul class="plan-features">
+              <li class="active">Treino ajustado diariamente</li>
+              <li class="active">Biblioteca completa de vídeos</li>
+              <li class="active">Nutrição + suplementação</li>
+              <li class="active">Suporte 24/7 via WhatsApp</li>
+              <li class="active">Check-in diário de progresso</li>
+              <li class="active">Videochamadas ilimitadas</li>
+              <li class="active">Acesso à comunidade VIP</li>
+            </ul>
+            <a href="#cta" class="plan-btn">Quero o Elite</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section id="cta">
+      <div class="diag-line l"></div>
+      <div class="diag-line r"></div>
+      <div class="cta-overline reveal">A hora é agora</div>
+      <h2 class="cta-title reveal">
+        <span>PARE DE</span>
+        <span class="stroke-text">ESPERAR</span>
+        <span style="color: var(--acid)">COMECE</span>
+      </h2>
+      <p class="cta-sub reveal">
+        Todo dia que você adia é um dia a mais longe do corpo e da energia que você merece ter. A
+        primeira sessão de avaliação é gratuita.
+      </p>
+      <div class="cta-actions reveal">
+        <a id="btn-contact" href="#" class="btn-primary"> Agendar Avaliação Gratuita </a>
+      </div>
+      <div class="cta-note reveal">
+        <p><span>✓</span> Sem compromisso &nbsp;&nbsp;</p>
+        <p><span>✓</span> Resposta em minutos &nbsp;&nbsp;</p>
+        <p><span>✓</span> 100% personalizado</p>
+      </div>
+      <div class="modal" id="modal">
+        <div class="modal-content">
+          <button class="modal-close">✕</button>
+          <h2 class="modal-title">Gostei de saber que você se interessou pelo projeto.</h2>
+          <p class="modal-paragraph">Em breve, você poderá falar comigo diretamente por aqui.</p>
+          <p class="modal-paragraph">Vai ser um prazer entender seu projeto.</p>
+          <a href="https://wa.me/5561991002109" target="_blank" class="btn-primary btn-modal"
+            >Contato</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-logo">FORGE<span>.</span></div>
+      <ul class="footer-links">
+        <li><a href="#method">Método</a></li>
+        <li><a href="#results">Resultados</a></li>
+        <li><a href="#pricing">Planos</a></li>
+        <li><a href="#cta">Contato</a></li>
+      </ul>
+      <div class="footer-copy">© 2026 Forge Personal. Todos os direitos reservados.</div>
+    </footer>
+  </body>
+</html>

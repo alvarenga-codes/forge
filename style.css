@@ -6,18 +6,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --acid: #c8ff00;
-  --fire: #ff4500;
-  --dark: #080808;
-  --mid: #111111;
-  --panel: #161616;
-  --border: #222222;
-  --light: #f2f2f2;
-  --muted: #555555;
-  --white: #ffffff;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -314,7 +302,6 @@ nav.scrolled {
   position: absolute;
   inset: 0;
   display: flex;
-  align-items: flex-end;
   justify-content: center;
 }
 
